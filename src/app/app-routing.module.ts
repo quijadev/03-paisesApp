@@ -9,7 +9,7 @@ const routes: Routes = [
     {
         path: '',
         component: PorPaisComponent,
-        pathMatch: 'full' //esto tiene el home para que el path sea exactamente 's', o sea vacio, sin nada despues.
+        pathMatch: 'full' //esto tiene el home para que el path sea exactamente '', o sea vacio, sin nada despues. como que sin eso cualquier parametro cuenta por empezar con un string vacio
     },
     {
         path: 'region',
