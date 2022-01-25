@@ -25,11 +25,17 @@ export class PorPaisComponent {
       console.log(paises);
       
     } ), (err) => {
+      this.term = term;
       this.error = true;
       this.paises = [];
       console.log(err);
     });
 
+  }
+
+  suggest( term: string) {
+    this.error = false;
+    //TODO crear sugerencias
   }
 
 }
