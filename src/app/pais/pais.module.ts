@@ -9,6 +9,7 @@ import { VerPaisComponent } from './pages/ver-pais/ver-pais.component';
 import { RouterModule } from '@angular/router';
 import { PaisTablaComponent } from './components/pais-tabla/pais-tabla.component';
 import { PaisInputComponent } from './components/pais-input/pais-input.component';
+import { PaisTablaV2Component } from './components/pais-tabla-v2/pais-tabla-v2.component';
 
 
 
@@ -19,7 +20,8 @@ import { PaisInputComponent } from './components/pais-input/pais-input.component
     PorRegionComponent,
     VerPaisComponent,
     PaisTablaComponent,
-    PaisInputComponent
+    PaisInputComponent,
+    PaisTablaV2Component
   ],
   exports: [
     PorCapitalComponent,

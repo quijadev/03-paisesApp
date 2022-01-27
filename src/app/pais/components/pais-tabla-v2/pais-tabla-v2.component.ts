@@ -1,16 +1,14 @@
 import { Component, Input } from '@angular/core';
 import { Country } from '../../interfaces/pais-interface';
 
-
 @Component({
-  selector: 'app-pais-tabla',
-  templateUrl: './pais-tabla.component.html'
+  selector: 'app-pais-tabla-v2',
+  templateUrl: './pais-tabla-v2.component.html'
 })
-export class PaisTablaComponent  {
-
+export class PaisTablaV2Component {
+  
   @Input() paises: Country[] = [];
 
   constructor() { }
-
 
 }
